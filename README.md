@@ -101,6 +101,9 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 
 ---
 
+<a id="installation-debian"></a>
+## `💿`︲Création et configuration de la VM. 
+
 
 
 
