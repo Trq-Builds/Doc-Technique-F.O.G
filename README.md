@@ -107,7 +107,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 ### `⚙️`︲Spécifications de la VM
 
 * **Hostname :** `srv-fog`
-* **Adressage IP :** dynamique (DHCP) — récupérer une adresse sur le réseau local physique
+* **Adressage IP :** dynamique (DHCP) récupérer une adresse sur le réseau local physique
 * **Interface graphique :** **aucune** (installation en mode serveur / ligne de commande)
 * **Service à installer :** `ssh` (SSH activé et démarré)
 * **Mémoire :** 1024 Mo
