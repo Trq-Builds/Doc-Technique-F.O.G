@@ -104,7 +104,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 <a id="creation-vm"></a>
 ## `💿`︲Création et configuration de la VM.
 
-## `⚙️`︲Spécifications de la VM
+### `⚙️`︲Spécifications de la VM
 
 * **Hostname :** `srv-fog`
 * **Adressage IP :** dynamique (DHCP) — récupérer une adresse sur le réseau local physique
@@ -113,7 +113,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 * **Mémoire :** 1024 Mo
 * **Disque :** 100 Go (allocation dynamique)
 
-## `🚧`︲Comptes et mots de passe (NON NÉGOCIABLE)
+### `🚧`︲Comptes et mots de passe (NON NÉGOCIABLE)
 
 > **Important — obligatoires :**
 
