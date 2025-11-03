@@ -123,14 +123,13 @@ ID : btssio  | MDP : btssio
 * Créer les deux comptes avec ces mots de passe lors de l’installation / configuration.
 * Vérifier les droits sudo si nécessaire pour l’utilisateur `btssio`.
 
----
-
 <details>
   <summary><strong>🖼️︲Captures d'écran</strong></summary>
 </details>
 
 ---
 
+<a id="installation-systeme"></a>
 ### `⚙️`︲Installation du système Debian 13.
 
 > [!TIP]
