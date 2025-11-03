@@ -143,6 +143,12 @@ ID : btssio  | MDP : btssio
 <a id="configuration-ssh"></a>
 ### `🔐`︲Création des comptes et configuration SSH.
 
+> [!TIP]
+> [🎥︲Vidéo explicative – Cliquez-ici (Dona.One)]()
+
+> [!TIP]
+> [🎥︲Vidéo explicative – Cliquez-ici (Mega.nz)]()
+
 
 
 
