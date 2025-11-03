@@ -104,14 +104,14 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 <a id="creation-vm"></a>
 ## `💿`︲Création et configuration de la VM.
 
-### `⚙️`︲Configuration de la VM
+### `⚙️`︲Configuration de la VM.
 
-* **Hostname :** `srv-fog`
-* **Adressage IP :** dynamique (DHCP) récupérer une adresse sur le réseau local physique
-* **Interface graphique :** **aucune** (installation en mode serveur / ligne de commande)
-* **Service à installer :** `ssh` (SSH activé et démarré)
-* **Mémoire :** 1024 Mo
-* **Disque :** 100 Go (allocation dynamique)
+* **Hostname :** `srv-fog`.
+* **Adressage IP :** dynamique (DHCP) récupérer une adresse sur le réseau local physique.
+* **Interface graphique :** **aucune** (installation en mode serveur / ligne de commande).
+* **Service à installer :** `ssh` (SSH activé et démarré).
+* **Mémoire :** 1024 Mo.
+* **Disque :** 100 Go (allocation dynamique).
 
 ### `🚧`︲Comptes et mots de passe (NON NÉGOCIABLE)
 
