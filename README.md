@@ -132,6 +132,8 @@ ID : btssio  | MDP : btssio
 <a id="installation-systeme"></a>
 ### `⚙️`︲Installation du système Debian 13.
 
+---
+
 > [!TIP]
 > [🎥︲Vidéo explicative – Cliquez-ici (Dona.One)]()
 
@@ -142,6 +144,8 @@ ID : btssio  | MDP : btssio
 
 <a id="configuration-ssh"></a>
 ### `🔐`︲Création des comptes et configuration SSH.
+
+--- 
 
 > [!TIP]
 > [🎥︲Vidéo explicative – Cliquez-ici (Dona.One)]()
