@@ -115,7 +115,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 
 ### `🚧`︲Comptes et mots de passe (NON NÉGOCIABLE)
 
-> **Important — obligatoires :**
+**Important — obligatoires :**
 
 ```
 root    / btssio
