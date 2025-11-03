@@ -125,6 +125,12 @@ ID : btssio  | MDP : btssio
 
 ---
 
+<details>
+  <summary><strong>🖼️︲Captures d'écran</strong></summary>
+</details>
+
+---
+
 > [!TIP]
 > [🎥︲Vidéo explicative – Cliquez-ici (Dona.One)]()
 
