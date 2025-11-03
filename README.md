@@ -126,7 +126,7 @@ btssio  / btssio
 * Vérifier les droits sudo si nécessaire pour l’utilisateur `btssio`.
 
 <details>
-  <summary><strong>`🖼️`︲Captures d'écran</strong></summary>
+  <summary><strong>🖼️︲Captures d'écran</strong></summary>
    </details>
 
 ## Étapes recommandées (résumé rapide)
