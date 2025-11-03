@@ -104,6 +104,39 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 <a id="creation-vm"></a>
 ## `💿`︲Création et configuration de la VM.
 
+## `⚙️`︲Spécifications de la VM
+
+* **Hostname :** `srv-fog`
+* **Adressage IP :** dynamique (DHCP) — récupérer une adresse sur le réseau local physique
+* **Interface graphique :** **aucune** (installation en mode serveur / ligne de commande)
+* **Service à installer :** `ssh` (SSH activé et démarré)
+* **Mémoire :** 1024 Mo
+* **Disque :** 100 Go (allocation dynamique)
+
+## `🚧`︲Comptes et mots de passe (NON NÉGOCIABLE)
+
+> **Important — obligatoires :**
+
+```
+root    / btssio
+btssio  / btssio
+```
+
+* Créer les deux comptes avec ces mots de passe lors de l’installation / configuration.
+* Vérifier les droits sudo si nécessaire pour l’utilisateur `btssio`.
+
+## Étapes recommandées (résumé rapide)
+
+1. Préparer la VM dans l’hyperviseur (taille RAM : 1024 Mo, disque : 100 Go — dynamique).
+2. Démarrer l’installateur Debian 13 en utilisant le **miroir local**.
+3. Choisir l’installation **sans environnement de bureau** (server/console only).
+4. Configurer le réseau en **DHCP** pour l’interface principale.
+5. Définir le `hostname` : `srv-fog`.
+6. Créer/valider les comptes et mots de passe fournis (root + btssio).
+7. Installer et activer le service `ssh` (ex. `apt install openssh-server` puis `systemctl enable --now ssh`).
+8. Finaliser et redémarrer la VM, puis vérifier la connectivité SSH et l’adresse IP reçue via DHCP (`ip a` / `ip addr show`).
+
+
 
 
 
