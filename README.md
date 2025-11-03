@@ -88,9 +88,9 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 <a id="presentation-outils-prerequis"></a>
 > [!IMPORTANT]
 > Présentation des outils et prérequis :
-> - **Serveur :** Windows Server 2025.
+> - **Serveur :** Debian 13 **sans interface graphique**
 > - **Client :** Windows 11.
-> - **Outils :** Active Directory, DNS, PowerShell, GPO.
+> - **Outils :** FOG.
 
 ---
 
