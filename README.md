@@ -155,7 +155,7 @@ ID : btssio  | MDP : btssio
 ### `🌍`︲Installation du service FOG.
 
 <a id="telechargement-fog"></a>
-## `⬇️`︲Téléchargement et préparation de l’archive.
+### `⬇️`︲Téléchargement et préparation de l’archive.
 
 
 
