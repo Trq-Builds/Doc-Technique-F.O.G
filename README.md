@@ -131,6 +131,8 @@ ID : btssio  | MDP : btssio
 
 ---
 
+### `⚙️`︲Installation du système Debian 13.
+
 > [!TIP]
 > [🎥︲Vidéo explicative – Cliquez-ici (Dona.One)]()
 
