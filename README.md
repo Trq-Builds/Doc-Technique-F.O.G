@@ -125,6 +125,10 @@ btssio  / btssio
 * Créer les deux comptes avec ces mots de passe lors de l’installation / configuration.
 * Vérifier les droits sudo si nécessaire pour l’utilisateur `btssio`.
 
+<details>
+  <summary><strong>`🖼️`︲Captures d'écran</strong></summary>
+   </details>
+
 ## Étapes recommandées (résumé rapide)
 
 1. Préparer la VM dans l’hyperviseur (taille RAM : 1024 Mo, disque : 100 Go — dynamique).
