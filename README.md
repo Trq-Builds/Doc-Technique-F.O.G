@@ -11,7 +11,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 > Les vidéos et captures d’écran seront ajoutées progressivement.
 > Chaque section sera accompagnée de commandes, de précisions techniques et de recommandations
 > Les vidéos sont hébergées sur `dona.one`.
-> Autrement utilisez Mega.nz pour visionner les vidéos.
+> Autrement utilisez `Mega.nz` pour visionner les vidéos.
 
 ---
 
