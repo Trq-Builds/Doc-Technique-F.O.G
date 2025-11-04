@@ -152,6 +152,11 @@ ID : btssio  | MDP : btssio
 > [!TIP]
 > [🎥︲Vidéo explicative – Cliquez-ici (Mega.nz)]()
 
+
+<details>
+  <summary><strong>🖼️︲Captures d'écran</strong></summary>
+</details>
+
 ---
 
 <a id="installation-fog"></a>
