@@ -194,9 +194,7 @@ ID : btssio  | MDP : btssio
 
 <details>
   <summary>📸︲Partitionnement automatique</summary>
-
-*(Tes captures ici)*
-
+<img width="802" height="594" alt="image" src="https://github.com/user-attachments/assets/ed6046dd-c312-47fb-bce0-79ef312d88bb" />
 </details>
 
 ---
