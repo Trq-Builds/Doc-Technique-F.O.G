@@ -194,10 +194,6 @@ ID : btssio  | MDP : btssio
 <img width="794" height="589" alt="image" src="https://github.com/user-attachments/assets/65948516-8dcc-40c3-883d-1375b6a9f65e" />
 <img width="803" height="588" alt="image" src="https://github.com/user-attachments/assets/46bb2f9c-b96e-4986-b22c-91a0dae464a1" />
 <img width="801" height="596" alt="image" src="https://github.com/user-attachments/assets/07d8ee6b-4e9b-406f-baf1-948ba7fe5bad" />
-
-
-
-
 </details>
 
 ---
@@ -207,8 +203,19 @@ ID : btssio  | MDP : btssio
 * Ne **pas** installer d’environnement graphique.
 * Cocher uniquement :
 
-  * `serveur SSH`
-  * `utilitaires système standard`
+[ ] environnement de bureau Debian
+[ ] ... GNOME
+[ ] ... Xfce
+[ ] ... bureau GNOME Flashback
+[ ] ... KDE Plasma
+[ ] ... Cinnamon
+[ ] ... MATE
+[ ] ... LXDE
+[ ] ... LXQt
+[ ] serveur web
+[x] serveur SSH
+[x] utilitaires usuels du système
+[ ] choix d’un assemblage (Blend) de Debian lors de l’installation
 
 ---
 
