@@ -90,9 +90,9 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 ## `🧰`︲Présentation des outils et prérequis.
 > [!IMPORTANT]
 > Présentation des outils et prérequis :
-> - **Serveur :** Debian 13 **sans interface graphique** [`🌐`](https://www.debian.org/)
-> - **Client :** Windows 11. [`🌐`](https://www.microsoft.com/fr-fr/software-download/windows11)
-> - **Outils :** FOG (Free Open-Source Ghost) `V.1.5.10.1721` [`🌐`](https://fogproject.org/)
+> - **Serveur :** Debian 13 **sans interface graphique** ︲[`🌐`](https://www.debian.org/)
+> - **Client :** Windows 11. ︲[`🌐`](https://www.microsoft.com/fr-fr/software-download/windows11)
+> - **Outils :** FOG (Free Open-Source Ghost) `V.1.5.10.1721` ︲[`🌐`](https://fogproject.org/)
 ---
 
 <a id="installation-debian"></a>
@@ -105,12 +105,12 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 
 ### `⚙️`︲Configuration de la VM.
 
-* `❓` **Hostname :** `srv-fog`.
-* `🪪` **Adressage IP :** dynamique (DHCP) récupérer une adresse sur le réseau local physique.
-* `🖼️` **Interface graphique :** **aucune** (installation en mode serveur / ligne de commande).
-* `🧩` **Service à installer :** `ssh` (SSH activé et démarré).
-* `📏` **Mémoire :** 1024 Mo.
-* `💾` **Disque :** 100 Go (allocation dynamique).
+* `❓` ︲**Hostname :** `srv-fog`.
+* `🪪` ︲**Adressage IP :** dynamique (DHCP) récupérer une adresse sur le réseau local physique.
+* `🖼️` ︲**Interface graphique :** **aucune** (installation en mode serveur / ligne de commande).
+* `🧩` ︲**Service à installer :** `ssh` (SSH activé et démarré).
+* `📏` ︲**Mémoire :** 1024 Mo.
+* `💾` ︲**Disque :** 100 Go (allocation dynamique).
 
 ### `🚧`︲Couples d’identifiants (__NON NÉGOCIABLE__)
 
