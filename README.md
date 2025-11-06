@@ -74,7 +74,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 ---
 
 <a id="introduction"></a>
-## `📘`︲Introduction.
+### `📘`︲Introduction.
 
 ---
 
@@ -96,14 +96,14 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 ---
 
 <a id="installation-debian"></a>
-## `🛠️`︲Installation de Debian 13 sans interface graphique.
+### `🛠️`︲Installation de Debian 13 sans interface graphique.
 
 ---
 
 <a id="creation-vm"></a>
 ## `💿`︲Création et configuration de la VM.
 
-### `⚙️`︲Configuration de la VM.
+# `⚙️`︲Configuration de la VM.
 
 * `❓` ︲**Hostname :** `srv-fog`.
 * `🪪` ︲**Adressage IP :** dynamique (DHCP) récupérer une adresse sur le réseau local physique.
@@ -112,7 +112,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 * `📏` ︲**Mémoire :** 1024 Mo.
 * `💾` ︲**Disque :** 100 Go (allocation dynamique).
 
-### `🚧`︲Couples d’identifiants (__NON NÉGOCIABLE__)
+# `🚧`︲Couples d’identifiants (__NON NÉGOCIABLE__)
 
 ```
 ID : root    | MDP : btssio
@@ -129,7 +129,7 @@ ID : btssio  | MDP : btssio
 ---
 
 <a id="installation-systeme"></a>
-### `⚙️`︲Installation du système Debian 13.
+## `⚙️`︲Installation du système Debian 13.
 
 ---
 
@@ -146,7 +146,7 @@ ID : btssio  | MDP : btssio
 ---
 
 <a id="configuration-ssh"></a>
-### `🔐`︲Création des comptes et configuration SSH.
+## `🔐`︲Création des comptes et configuration SSH.
 
 --- 
 
