@@ -280,7 +280,7 @@ ID : btssio  | MDP : btssio
 <details>
   <summary>📸︲Vérification du service SSH</summary>
 
-*(Insère la capture montrant le service SSH actif)*
+<img width="857" height="814" alt="image" src="https://github.com/user-attachments/assets/22247b4e-f8f5-41a4-8da9-cb546dd40862" />
 
 </details>
 
