@@ -265,9 +265,10 @@ ID : btssio  | MDP : btssio
 2️⃣︲**Activation du SSH**
 
 * S’assurer que le paquet est installé :
+* En mode ROOT : 
 
   ```bash
-  sudo apt install openssh-server -y
+   apt install openssh-server -y
   ```
 * Démarrer et activer le service :
 
