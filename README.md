@@ -152,9 +152,7 @@ ID : btssio  | MDP : btssio
 
 <details>
   <summary>📸︲Sélection langue et clavier</summary>
-
-*(Insère ici tes captures d’écran correspondantes)*
-
+<img width="800" height="593" alt="image" src="https://github.com/user-attachments/assets/035692f5-ee65-4936-9856-041100e57798" />
 </details>
 
 ---
