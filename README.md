@@ -103,6 +103,8 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 <a id="creation-vm"></a>
 ## `💿`︲Création et Configuration de la VM.
 
+---
+
 ### `⚙️`︲Configuration de la VM.
 
 * `❓` ︲**Hostname :** `srv-fog`.
@@ -165,6 +167,8 @@ ID : btssio  | MDP : btssio
 
 <a id="installation-fog"></a>
 # `🌍`︲Installation du service FOG.
+
+---
 
 <a id="telechargement-fog"></a>
 ### `⬇️`︲Téléchargement et préparation de l’archive.
