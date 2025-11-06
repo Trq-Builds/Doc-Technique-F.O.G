@@ -112,7 +112,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 * `🧩` ︲**Service à installer :** `ssh` (SSH activé et démarré).
 * `📏` ︲**Mémoire :** 1024 Mo.
 * `💾` ︲**Disque :** 100 Go (allocation dynamique).
-* `❤️` ︲**Cœurs :** 1.
+* `❤️` ︲**Cœurs :** 1. (Optionel)
 
 <details>
   <summary><strong>🖼️︲Captures d'écran (Config VMWare)</strong></summary>
