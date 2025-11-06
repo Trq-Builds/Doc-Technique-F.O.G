@@ -79,7 +79,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 ---
 
 <a id="contexte-et-objectifs"></a>
-## `❔`︲Contexte et objectifs du TP.
+### `❔`︲Contexte et objectifs du TP.
 > [!NOTE]
 > Tu vas apprendre à installer et configurer un serveur FOG, à capturer et déployer des images système sur un parc de machines, à gérer les configurations réseau (DHCP, multicast), et à automatiser le déploiement d’environnements Windows ou Linux dans un contexte professionnel.
 > L’objectif est de te permettre de maîtriser les bases de la gestion de parc informatique et de la clonage d’images via FOG, un outil libre et puissant, afin de déployer rapidement et efficacement des postes de travail dans un environnement de type SISR.
@@ -87,7 +87,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 ---
 
 <a id="presentation-outils-prerequis"></a>
-## `🧰`︲Présentation des outils et prérequis.
+### `🧰`︲Présentation des outils et prérequis.
 > [!IMPORTANT]
 > Présentation des outils et prérequis :
 > - **Serveur :** Debian 13 **sans interface graphique** ︲[`🌐`](https://www.debian.org/)
@@ -101,7 +101,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 ---
 
 <a id="creation-vm"></a>
-## `💿`︲Création et configuration de la VM.
+## `💿`︲Création et Configuration de la VM.
 
 ### `⚙️`︲Configuration de la VM.
 
@@ -112,7 +112,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 * `📏` ︲**Mémoire :** 1024 Mo.
 * `💾` ︲**Disque :** 100 Go (allocation dynamique).
 
-# `🚧`︲Couples d’identifiants (__NON NÉGOCIABLE__)
+### `🚧`︲Couples d’identifiants (__NON NÉGOCIABLE__)
 
 ```
 ID : root    | MDP : btssio
