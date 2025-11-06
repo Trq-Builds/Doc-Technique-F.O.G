@@ -339,23 +339,6 @@ ssh root@<ip_du_serveur>
 
 ---
 
----
-
---- 
-
-> [!TIP]
-> [🎥︲Vidéo explicative – Cliquez-ici (Dona.One)]()
-
-> [!TIP]
-> [🎥︲Vidéo explicative – Cliquez-ici (Mega.nz)]()
-
-
-<details>
-  <summary><strong>🖼️︲Captures d'écran</strong></summary>
-</details>
-
----
-
 <a id="installation-fog"></a>
 # `🌍`︲Installation du service FOG.
 
