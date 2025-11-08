@@ -125,7 +125,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 </details>
 
 
-### `🚧`︲Couples d’identifiants (__NON NÉGOCIABLE__)
+### `🚧`︲Couples d’identifiants (__NON NÉGOCIABLE__).
 
 ```
 ID : root    | MDP : btssio
@@ -148,7 +148,7 @@ ID : btssio  | MDP : btssio
 
 ---
 
-1️⃣︲**Lancement de l’installation depuis l’ISO Debian 13**
+1️⃣︲**Lancement de l’installation depuis l’ISO Debian 13.**
 
 * Sélectionner **Installation** (pas “Graphical install”).
 * Choisir la **langue :** `Français`
@@ -164,7 +164,7 @@ ID : btssio  | MDP : btssio
 
 ---
 
-2️⃣︲**Configuration réseau**
+2️⃣︲**Configuration réseau.**
 
 * Nom de la machine : `srv-fog`
 * Méthode d’adressage : **DHCP (automatique)**
@@ -182,7 +182,7 @@ ID : btssio  | MDP : btssio
 
 ---
 
-3️⃣︲**Partitionnement du disque**
+3️⃣︲**Partitionnement du disque.**
 
 * Disque virtuel : **100 Go dynamiquement alloué**
 * Schéma recommandé :
@@ -203,7 +203,7 @@ ID : btssio  | MDP : btssio
 
 ---
 
-4️⃣︲**Sélection des paquets à installer**
+4️⃣︲**Sélection des paquets à installer.**
 
 * Ne **pas** installer d’environnement graphique.
 * Cocher uniquement :
@@ -224,7 +224,7 @@ ID : btssio  | MDP : btssio
 
 ---
 
-5️⃣︲**Installation du chargeur de démarrage (GRUB)**
+5️⃣︲**Installation du chargeur de démarrage (GRUB).**
 
 * Installer sur le disque principal `/dev/sda`.
 * Une fois l’installation terminée : **retirer l’ISO et redémarrer.**
