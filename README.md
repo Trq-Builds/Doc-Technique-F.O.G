@@ -120,7 +120,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 * `❤️` ︲**Cœurs :** `1`. (Optionel)
 
 <details>
-  <summary><strong>🖼️︲Captures d'écran (Config VMWare)</strong></summary>
+  <summary><strong>🖼️︲Capture d'écran (Config VMWare).</strong></summary>
     <img width="887" height="880" alt="image" src="https://github.com/user-attachments/assets/8671256d-3603-45e0-af58-d9cf730d5d52" />
 </details>
 
@@ -156,7 +156,7 @@ ID : btssio  | MDP : btssio
 * Disposition clavier : **Français (AZERTY)**
 
 <details>
-  <summary>📸︲Installation et sélection langue et clavier</summary>
+  <summary>📸︲Installation et sélection langue et clavier.</summary>
   
 <img width="641" height="482" alt="image" src="https://github.com/user-attachments/assets/f7a1f54b-9540-48ce-b3a9-bf605673302b" />
 <img width="800" height="593" alt="image" src="https://github.com/user-attachments/assets/035692f5-ee65-4936-9856-041100e57798" />
@@ -171,7 +171,7 @@ ID : btssio  | MDP : btssio
 * Domaine : *(laisser vide ou local)*
 
 <details>
-  <summary>📸︲Identifiants</summary>
+  <summary>📸︲Identifiants.</summary>
 
 <img width="799" height="594" alt="image" src="https://github.com/user-attachments/assets/e74ab1d5-33ba-4686-b6c8-c50b86963e06" />
 <img width="802" height="595" alt="image" src="https://github.com/user-attachments/assets/2266ccbd-f9a3-4ab6-8cd0-d2c079c9fecf" />
@@ -193,7 +193,7 @@ ID : btssio  | MDP : btssio
 * Type : **Guidé – utiliser tout le disque**, séparé selon les besoins.
 
 <details>
-  <summary>📸︲Partitionnement automatique</summary>
+  <summary>📸︲Partitionnement automatique.</summary>
 <img width="802" height="594" alt="image" src="https://github.com/user-attachments/assets/ed6046dd-c312-47fb-bce0-79ef312d88bb" />
 <img width="797" height="597" alt="image" src="https://github.com/user-attachments/assets/d401aafe-522b-4d87-9a58-c75c25c8f6ba" />
 <img width="794" height="589" alt="image" src="https://github.com/user-attachments/assets/65948516-8dcc-40c3-883d-1375b6a9f65e" />
@@ -230,7 +230,7 @@ ID : btssio  | MDP : btssio
 * Une fois l’installation terminée : **retirer l’ISO et redémarrer.**
 
 <details>
-  <summary>📸︲Installation Grub et redémarrage</summary>
+  <summary>📸︲Installation Grub et redémarrage.</summary>
 <img width="803" height="595" alt="image" src="https://github.com/user-attachments/assets/171b3e92-fc9a-4348-8f36-5ea8fcfd55be" />
 <img width="802" height="596" alt="image" src="https://github.com/user-attachments/assets/868f4416-77c3-4f45-a338-913e8c6595b3" />
 </details>
@@ -283,7 +283,7 @@ ID : btssio  | MDP : btssio
   ```
 
 <details>
-  <summary>📸︲Vérification du service SSH</summary>
+  <summary>📸︲Vérification du service SSH.</summary>
 
 <img width="857" height="814" alt="image" src="https://github.com/user-attachments/assets/22247b4e-f8f5-41a4-8da9-cb546dd40862" />
 
@@ -330,7 +330,7 @@ ssh root@<ip_du_serveur>
 ```
 
 <details>
-  <summary>📸︲Connexion SSH réussie</summary>
+  <summary>📸︲Connexion SSH réussie.</summary>
 
 *(Capture de la première connexion)*
 
