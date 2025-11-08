@@ -105,7 +105,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 ## `💿`︲Création et Configuration de la VM.
 
 > [!TIP]
-> Pour afficher les captures d’écran, clique sur le menu déroulant avec l’émoji `📸`. Le menu s’ouvrira et affichera la ou les captures d’écran.
+> **Pour afficher les captures d’écran, clique sur le menu déroulant avec l’émoji `📸`. Le menu s’ouvrira et affichera la ou les captures d’écran.**
 
 ### `⚙️`︲Configuration de la VM.
 
