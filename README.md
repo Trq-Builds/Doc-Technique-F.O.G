@@ -115,9 +115,9 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 * `📡` ︲**Adressage IP :** dynamique (DHCP) récupérer une adresse sur le réseau local physique.
 * `🖼️` ︲**Interface graphique :** **__aucune__** (__installation en mode serveur / ligne de commande__).
 * `🧩` ︲**Service à installer :** `ssh` (SSH activé et démarré).
-* `📏` ︲**Mémoire :** 1024 Mo.
-* `💾` ︲**Disque :** 100 Go (allocation dynamique).
-* `❤️` ︲**Cœurs :** 1. (Optionel)
+* `📏` ︲**Mémoire :** `1024 Mo`.
+* `💾` ︲**Disque :** `100 Go` (allocation dynamique).
+* `❤️` ︲**Cœurs :** `1`. (Optionel)
 
 <details>
   <summary><strong>🖼️︲Captures d'écran (Config VMWare)</strong></summary>
