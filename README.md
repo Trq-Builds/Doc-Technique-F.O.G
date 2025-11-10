@@ -495,9 +495,8 @@ Sur la page d’accueil, clique sur :
 
 ---
 
-> [!TIP]
-> 💾 Une fois l’installation web terminée, effectue un **snapshot de ta VM `srv-fog`**.
-> Cela te permettra de revenir à cet état avant les configurations suivantes.
+> [!WARNING]
+> **Une fois l’installation web terminée, crée un snapshot de ta VM afin de pouvoir revenir à cet état avant les prochaines configurations.**
 
 ---
 
