@@ -41,7 +41,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 
 5. [`🖼️`︲Création d’une image et d’un groupe de déploiement.](#creation-image-groupe)
 
-   * [`📷`︲Création d’une image “S126-master”.](#creation-image)
+   * [`📷`︲Création d’une image “S126-Master”.](#creation-image)
    * [`👥`︲Création d’un groupe de déploiement et assignation.](#creation-groupe)
 
 6. [`💻`︲Préparation de la machine master.](#preparation-master)
