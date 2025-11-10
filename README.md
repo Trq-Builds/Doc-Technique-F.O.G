@@ -245,8 +245,6 @@ ID : btssio  | MDP : btssio
 <a id="configuration-ssh"></a>
 ## `🔐`︲Création des comptes et configuration SSH.
 
-
-
 ---
 
 > [!NOTE]
@@ -331,9 +329,7 @@ ssh root@<ip_du_serveur>
 
 <details>
   <summary>📸︲Connexion SSH réussie.</summary>
-
-*(Capture de la première connexion)*
-
+<img width="1481" height="914" alt="image" src="https://github.com/user-attachments/assets/d71b108c-696f-42d7-a863-e7ebfb7f4b94" />
 </details>
 
 ---
