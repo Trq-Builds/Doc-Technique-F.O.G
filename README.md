@@ -330,7 +330,7 @@ ssh root@<ip_du_serveur>
 
 ---
 
-> [!TIP]
+> [!WARNING]
 > 💾︲**Prends un instantané de la VM “srv-fog” après validation du SSH.
 > Tu pourras y revenir avant de lancer l’installation du service FOG**.
 
