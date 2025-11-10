@@ -399,9 +399,7 @@ cd /opt/fogproject/bin/
 
 <details>
   <summary>📸︲Navigation vers le dossier `bin/`</summary>
-
-*(Capture du terminal affichant le contenu du dossier `bin/`)*
-
+<img width="985" height="861" alt="image" src="https://github.com/user-attachments/assets/e3fb4b90-df49-498b-9815-d577ed5a1b8d" />
 </details>
 
 ---
