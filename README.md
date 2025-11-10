@@ -282,9 +282,7 @@ ID : btssio  | MDP : btssio
 
 <details>
   <summary>📸︲Vérification du service SSH.</summary>
-
 <img width="857" height="814" alt="image" src="https://github.com/user-attachments/assets/22247b4e-f8f5-41a4-8da9-cb546dd40862" />
-
 </details>
 
 ---
@@ -328,7 +326,7 @@ ssh root@<ip_du_serveur>
 ```
 
 <details>
-  <summary>📸︲Connexion SSH réussie.</summary>
+  <summary>📸︲Connexion SSH réussie. (Putty )</summary>
 <img width="1481" height="914" alt="image" src="https://github.com/user-attachments/assets/d71b108c-696f-42d7-a863-e7ebfb7f4b94" />
 </details>
 
