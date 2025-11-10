@@ -364,6 +364,260 @@ ssh root@<ip_du_serveur>
 <a id="configuration-service-fog"></a>
 # `⚙️`︲Configuration du service FOG.
 
+---
+---
+---
+---
+---
+
+<a id="installation-fog"></a>
+## `🌍`︲Installation du service FOG
+
+---
+
+> [!NOTE]  
+> Cette partie détaille l’installation complète du **service FOG (Free Open-Source Ghost)** sur **Debian 13**.  
+> Objectif : mettre en place un serveur de déploiement d’images prêt à capturer et diffuser des systèmes Windows.
+
+---
+
+<a id="telechargement-fog"></a>
+### `⬇️`︲Téléchargement et préparation de l’archive
+
+---
+
+1️⃣︲**Installation des dépendances requises**
+
+Avant d’installer FOG, on met à jour le système et on installe les outils nécessaires :
+
+```bash
+sudo apt update && sudo apt install -y unzip git curl wget lsb-release net-tools
+````
+
+> [!TIP]
+> 💡 Ces paquets garantissent le bon fonctionnement du script d’installation FOG (gestion réseau, extraction, téléchargements, etc.).
+
+---
+
+2️⃣︲**Téléchargement du projet FOG**
+
+On récupère la version 1.5.10.1721 du projet depuis GitHub :
+
+```bash
+cd /opt/
+sudo wget https://api.github.com/repos/FOGProject/fogproject/zipball/1.5.10.1721 -O fogproject.zip
+sudo unzip fogproject.zip
+```
+
+> [!TIP]
+> Si le dossier extrait possède un nom long (`FOGProject-fogproject-*`), renomme-le simplement :
+>
+> ```bash
+> sudo mv FOGProject-fogproject-* fogproject
+> ```
+
+<details>
+  <summary>📸︲Téléchargement et extraction</summary>
+
+*(Insère ici tes captures montrant le téléchargement, puis le dossier extrait dans `/opt/`)*
+
+</details>
+
+---
+
+3️⃣︲**Accès au répertoire d’installation**
+
+Déplace-toi dans le dossier contenant le script principal :
+
+```bash
+cd /opt/fogproject/bin/
+```
+
+<details>
+  <summary>📸︲Navigation vers le dossier `bin/`</summary>
+
+*(Capture du terminal affichant le contenu du dossier `bin/`)*
+
+</details>
+
+---
+
+<a id="installation-serveur-fog"></a>
+
+### `🧩`︲Procédure d’installation du serveur FOG
+
+---
+
+> [!NOTE]
+> L’installation s’effectue via un script automatisé qui configure tous les services requis :
+> **Apache**, **PHP**, **MariaDB**, **TFTP**, **DHCP**, et le **daemon FOG**.
+
+---
+
+1️⃣︲**Lancement du script d’installation**
+
+```bash
+sudo ./installfog.sh
+```
+
+Lors du processus, plusieurs questions seront posées :
+
+| Question                      | Réponse attendue              |
+| ----------------------------- | ----------------------------- |
+| Type d’installation ?         | `N` (Normal Server)           |
+| Interface réseau détectée ?   | `Entrée` (valider par défaut) |
+| Activer DHCP sur ce serveur ? | `Y`                           |
+| Sécuriser MariaDB ?           | `N`                           |
+| Activer HTTPS ?               | `N`                           |
+
+---
+
+2️⃣︲**Validation du hostname et de l’adresse IP**
+
+Confirme simplement les valeurs par défaut si le nom `srv-fog` et l’adresse DHCP correspondent à ta configuration.
+
+---
+
+3️⃣︲**Installation automatique**
+
+Le script installe les dépendances et configure FOG.
+Une fois terminé, un message t’indiquera d’accéder à l’interface web pour finaliser la configuration.
+
+<details>
+  <summary>📸︲Installation du script FOG</summary>
+
+*(Capture de la progression du script dans le terminal et du message final)*
+
+</details>
+
+---
+
+4️⃣︲**Configuration web initiale**
+
+Depuis ton navigateur (machine hôte ou autre VM sur le même réseau) :
+
+```
+http://<ip_du_serveur_fog>/fog/management
+```
+
+> Exemple : `http://192.168.1.25/fog/management`
+
+Sur la page d’accueil, clique sur :
+➡️ **“Install/Update Now”** pour lancer la création de la base de données FOG.
+
+<details>
+  <summary>📸︲Page web d’installation</summary>
+
+*(Capture du bouton “Install/Update Now” et de la confirmation)*
+
+</details>
+
+---
+
+> [!TIP]
+> 💾 Une fois l’installation web terminée, effectue un **snapshot de ta VM `srv-fog`**.
+> Cela te permettra de revenir à cet état avant les configurations suivantes.
+
+---
+
+<a id="configuration-initiale-fog"></a>
+
+### `🔧`︲Configuration initiale et tests
+
+---
+
+> [!NOTE]
+> Avant d’aller plus loin, on vérifie le bon fonctionnement global de FOG (services, réseau, TFTP, etc.).
+
+---
+
+1️⃣︲**Connexion au tableau de bord FOG**
+
+Rends-toi à nouveau sur :
+
+```
+http://<ip_du_serveur_fog>/fog/management
+```
+
+Par défaut :
+
+* **Utilisateur :** `fog`
+* **Mot de passe :** `password` *(à modifier plus tard)*
+
+---
+
+2️⃣︲**Vérification des services actifs**
+
+Sur le tableau de bord (**Dashboard**), assure-toi que tous les services sont affichés en vert ✅ :
+
+* FOG Scheduler
+* FOG Multicast Manager
+* FOG Image Replicator
+* FOG Task Scheduler
+
+<details>
+  <summary>📸︲Tableau de bord FOG</summary>
+
+*(Capture de la page Dashboard montrant les services actifs)*
+
+</details>
+
+---
+
+3️⃣︲**Vérifier le service DHCP**
+
+FOG gère son propre service DHCP.
+Vérifie qu’il est actif :
+
+```bash
+sudo systemctl status isc-dhcp-server
+```
+
+> [!TIP]
+> 💡 Si tu utilises VirtualBox, passe ton **réseau en “interne”** pour éviter les conflits avec le DHCP de ta box.
+
+---
+
+4️⃣︲**Tester le service TFTP**
+
+Pour t’assurer que le boot PXE fonctionnera correctement :
+
+```bash
+tftp <ip_du_serveur_fog>
+tftp> get default.ipxe
+```
+
+Le fichier `default.ipxe` doit se télécharger sans erreur.
+Sinon, vérifie le service TFTP :
+
+```bash
+sudo systemctl status tftpd-hpa
+```
+
+<details>
+  <summary>📸︲Test du service TFTP</summary>
+
+*(Capture du test `tftp` réussi)*
+
+</details>
+
+---
+
+5️⃣︲**Modifier le mot de passe par défaut (recommandé)**
+
+Une fois tout opérationnel :
+`User Management → fog → Edit → Change Password`
+
+> [!WARNING]
+> ⚠️ Ne laisse jamais le mot de passe `password` par défaut, même pour un simple TP en réseau local.
+
+---
+
+> [!TIP]
+> 🎯 À ce stade, ton serveur FOG est **installé, opérationnel et prêt pour la configuration avancée**.
+> Tu peux maintenant passer à la section suivante :
+> `⚙️︲Configuration du service FOG` pour affiner les paramètres (menu PXE, délais, nombre de clients simultanés, etc.).
+
 
 
 
