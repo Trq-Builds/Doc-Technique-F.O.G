@@ -547,9 +547,7 @@ Sur le tableau de bord (**Dashboard**), assure-toi que tous les services sont af
 
 <details>
   <summary>📸︲Tableau de bord FOG</summary>
-
-*(Capture de la page Dashboard montrant les services actifs)*
-
+<img width="1787" height="1057" alt="image" src="https://github.com/user-attachments/assets/49bf6987-7a78-4eb2-ae31-30417bc12f55" />
 </details>
 
 ---
