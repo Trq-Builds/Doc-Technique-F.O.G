@@ -341,36 +341,6 @@ ssh root@<ip_du_serveur>
 ---
 
 <a id="installation-fog"></a>
-# `🌍`︲Installation du service FOG.
-
----
-
-<a id="telechargement-fog"></a>
-### `⬇️`︲Téléchargement et préparation de l’archive.
-
----
-
-<a id="installation-serveur-fog"></a>
-### `🧩`︲Procédure d’installation du serveur FOG.
-
-
----
-
-<a id="configuration-initiale-fog"></a>
-### `🔧`︲Configuration initiale et tests.
-
----
-
-<a id="configuration-service-fog"></a>
-# `⚙️`︲Configuration du service FOG.
-
----
----
----
----
----
-
-<a id="installation-fog"></a>
 ## `🌍`︲Installation du service FOG
 
 ---
@@ -382,7 +352,7 @@ ssh root@<ip_du_serveur>
 ---
 
 <a id="telechargement-fog"></a>
-### `⬇️`︲Téléchargement et préparation de l’archive
+### `⬇️`︲Téléchargement et préparation de l’archive.
 
 ---
 
@@ -443,8 +413,7 @@ cd /opt/fogproject/bin/
 ---
 
 <a id="installation-serveur-fog"></a>
-
-### `🧩`︲Procédure d’installation du serveur FOG
+### `🧩`︲Procédure d’installation du serveur FOG.
 
 ---
 
@@ -617,6 +586,12 @@ Une fois tout opérationnel :
 > 🎯 À ce stade, ton serveur FOG est **installé, opérationnel et prêt pour la configuration avancée**.
 > Tu peux maintenant passer à la section suivante :
 > `⚙️︲Configuration du service FOG` pour affiner les paramètres (menu PXE, délais, nombre de clients simultanés, etc.).
+
+---
+
+<a id="configuration-service-fog"></a>
+# `⚙️`︲Configuration du service FOG.
+
 
 
 
