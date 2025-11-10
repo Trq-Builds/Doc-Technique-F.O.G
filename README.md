@@ -498,6 +498,11 @@ Sur la page d’accueil, clique sur :
 > [!WARNING]
 > **Une fois l’installation web terminée, crée un snapshot de ta VM afin de pouvoir revenir à cet état avant les prochaines configurations.**
 
+<details>
+  <summary>📸︲Panel</summary>
+  <img width="1774" height="1048" alt="image" src="https://github.com/user-attachments/assets/cf84e032-fa31-42b7-9320-6f205b2913e8" />
+</details>
+
 ---
 
 <a id="configuration-initiale-fog"></a>
