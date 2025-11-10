@@ -433,6 +433,24 @@ Lors du processus, plusieurs questions seront posées :
 | Activer HTTPS ?               | `N`                           |
 
 ---
+Récapitulatif des options : 
+# FOG Settings
+
+- [x] **Base Linux:** Debian  
+- [x] **Detected Linux Distribution:** Debian GNU/Linux  
+- [x] **Interface:** ens33  
+- [x] **Server IP Address:** 192.168.23.135  
+- [x] **Server Subnet Mask:** 255.255.255.0  
+- [x] **Hostname:** srvfog  
+- [x] **Installation Type:** Normal Server  
+- [x] **Internationalization:** No  
+- [x] **Image Storage Location:** /images  
+- [x] **Using FOG DHCP:** Yes  
+- [x] **DHCP Router Address:** 192.168.23.2  
+- [x] **Send OS Name, OS Version, and FOG Version:** No
+
+
+---
 
 2️⃣︲**Validation du hostname et de l’adresse IP**
 
