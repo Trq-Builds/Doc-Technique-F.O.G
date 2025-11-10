@@ -306,8 +306,7 @@ ID : btssio  | MDP : btssio
   ```
 
 > [!WARNING]
-> - ⚠️ ︲**Ne laisse pas le root activé en environnement réel !**
-> - ⚠️︲ **Ici c’est uniquement pour le TP ou les tests internes !**
+> Ne laissez jamais le compte root activé en production : il ne doit être utilisé que pour les besoins du TP ou des tests internes.
 
 ---
 
