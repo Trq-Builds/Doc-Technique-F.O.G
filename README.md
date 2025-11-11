@@ -500,7 +500,7 @@ Sur la page d’accueil, clique sur :
 
 <details>
   <summary>📸︲Panel</summary>
-  <img width="1774" height="1048" alt="image" src="https://github.com/user-attachments/assets/cf84e032-fa31-42b7-9320-6f205b2913e8" />
+<img width="1787" height="1057" alt="image" src="https://github.com/user-attachments/assets/49bf6987-7a78-4eb2-ae31-30417bc12f55" />
 </details>
 
 ---
