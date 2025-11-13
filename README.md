@@ -668,9 +668,7 @@ $ systemctl restart FOGScheduler
 
 <details>
   <summary>📸︲Redémarrage des services</summary>
-
-*(Capture des services redémarrés sans erreur)*
-
+<img width="1085" height="701" alt="image" src="https://github.com/user-attachments/assets/94c235dd-1aaf-476e-bbbe-ab9b13cb8edd" />
 </details>
 
 ---
