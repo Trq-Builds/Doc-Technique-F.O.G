@@ -674,8 +674,8 @@ $ systemctl restart FOGScheduler
 ---
 
 > [!TIP]
-> 🎯 À ce stade, ton réseau interne FOG est isolé et opérationnel.
-> Les clients peuvent désormais recevoir une adresse IP depuis le serveur FOG au boot PXE.
+> À ce stade, ton réseau interne FOG est isolé et opérationnel.
+> Les clients peuvent désormais recevoir une adresse IP depuis le serveur FOG au boot PXE !
 
 ---
 
@@ -813,17 +813,3 @@ Toutes doivent atteindre l’écran de menu FOG sans erreur réseau.
 > ✅ Ton serveur FOG est maintenant **configuré, optimisé et prêt à gérer plusieurs déploiements en parallèle**.
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
