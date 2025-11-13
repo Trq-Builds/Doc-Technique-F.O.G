@@ -815,8 +815,6 @@ Toutes doivent atteindre l’écran de menu FOG sans erreur réseau.
 
 > [!TIP]
 > ✅ Ton serveur FOG est maintenant **configuré, optimisé et prêt à gérer plusieurs déploiements en parallèle**.
-> Tu peux passer à la prochaine étape :
-> `🖼️︲Création d’une image et d’un groupe de déploiement`.
 
 ---
 
