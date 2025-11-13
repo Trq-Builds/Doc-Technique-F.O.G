@@ -695,7 +695,7 @@ $ systemctl restart FOGScheduler
 `Dashboard → FOG Configuration → PXE Boot Menu`
 
 <details>
-<summary>📸︲Redémarrage des services</summary>
+<summary>📸︲Copie d"écran</summary>
 <img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/f9cf1be6-1945-48f9-badf-44986edfb79c" />
 </details>
 
