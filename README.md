@@ -778,7 +778,7 @@ Augmente la valeur selon ton besoin (exemple : 30) :
 ```
 
 > [!TIP]
-> 💡 Pour un test en salle complète (18 à 20 machines), 30 connexions assurent un flux stable.
+> Pour un test en salle complète (18 à 20 machines), 30 connexions assurent un flux stable.
 
 <details>
   <summary>📸︲Paramètre TFTP modifié</summary>
@@ -810,11 +810,11 @@ Teste un boot PXE simultané sur plusieurs machines virtuelles.
 Toutes doivent atteindre l’écran de menu FOG sans erreur réseau.
 
 > [!TIP]
-> 🎯 Si certains clients restent bloqués, augmente légèrement la limite (jusqu’à 50 connexions selon la puissance de ta machine hôte).
+> Si certains clients restent bloqués, augmente légèrement la limite (jusqu’à 50 connexions selon la puissance de ta machine hôte).
 
 ---
 
 > [!TIP]
-> ✅ Ton serveur FOG est maintenant **configuré, optimisé et prêt à gérer plusieurs déploiements en parallèle**.
+> Ton serveur FOG est maintenant **configuré, optimisé et prêt à gérer plusieurs déploiements en parallèle**.
 
 ---
