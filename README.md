@@ -1070,10 +1070,10 @@ Interface Web →
 
 2️⃣︲**Vérifier / modifier si nécessaire**
 
-- Hostname  
-- MAC address  
-- Description  
-- Groupe d’appartenance (la machine master NE DOIT PAS aller dans un groupe client)
+- `🚦`︲Hostname  
+- `❓`︲MAC address  
+- `ℹ️`︲Description  
+- `❔`︲Groupe d’appartenance (la machine master NE DOIT PAS aller dans un groupe client)
 
 > [!WARNING]  
 > Le master NE doit **jamais** être dans le groupe “Salle126”.  
@@ -1096,11 +1096,9 @@ Tu peux associer l’image `S126-master`, mais ce n’est pas obligatoire avant 
 
 > [!TIP]  
 > Ton master est maintenant **préparé, recensé et prêt à être capturé**.  
-> Tu peux passer à la prochaine étape :  
 
 ---
 
-**`📦︲Capture de l’image master`** ?
 
 
 
