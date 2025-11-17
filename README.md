@@ -973,11 +973,11 @@ Tu dois installer **un des logiciels suivants** sur la machine master :
 > Choisis un logiciel visible et simple à repérer : idéal pour vérifier, après déploiement, que l’image a bien été appliquée.
 
 > [!TIP]  
-> Dans mon cas, j’ai installé les quatre logiciels d'exemple ainsi que réalisé quelques modifications sur Windows pour vérifier si FOG est capable de les récupérer.
+> **Dans mon cas, j’ai installé les quatre logiciels d'exemple ainsi que réalisé quelques modifications sur Windows pour vérifier si FOG est capable de les récupérer.**
 
 
 <details>
-  <summary>📸︲Bureau de la VM</summary>
+  <summary>📸︲Bureau de la VM de Test (Master)</summary>
 <img width="1039" height="778" alt="image" src="https://github.com/user-attachments/assets/c3a847d3-90b1-4f70-b2cf-341a347576b5" />
 <img width="1035" height="766" alt="image" src="https://github.com/user-attachments/assets/c24ca75c-a490-4de0-8937-9875f2f97c98" />
 </details>
