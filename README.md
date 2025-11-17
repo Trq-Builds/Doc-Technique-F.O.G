@@ -796,13 +796,6 @@ Ce paramétrage permet d’adapter FOG aux besoins, par exemple pour couvrir plu
 sudo systemctl restart tftpd-hpa
 ```
 
-<details>
-  <summary>📸︲Redémarrage du service TFTP</summary>
-
-*(Capture du terminal montrant le redémarrage réussi du service)*
-
-</details>
-
 ---
 
 4️⃣︲**Vérification finale**
@@ -819,3 +812,5 @@ Toutes doivent atteindre l’écran de menu FOG sans erreur réseau.
 > Ton serveur FOG est maintenant **configuré, optimisé et prêt à gérer plusieurs déploiements en parallèle**.
 
 ---
+
+
