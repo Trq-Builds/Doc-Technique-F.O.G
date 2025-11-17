@@ -977,7 +977,7 @@ Tu dois installer **un des logiciels suivants** sur la machine master :
 
 
 <details>
-  <summary>📸︲Bureau de la VM/summary>
+  <summary>📸︲Bureau de la VM</summary>
 <img width="1039" height="778" alt="image" src="https://github.com/user-attachments/assets/c3a847d3-90b1-4f70-b2cf-341a347576b5" />
 <img width="1035" height="766" alt="image" src="https://github.com/user-attachments/assets/c24ca75c-a490-4de0-8937-9875f2f97c98" />
 </details>
