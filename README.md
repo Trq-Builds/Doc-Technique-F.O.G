@@ -780,7 +780,6 @@ Ce paramétrage permet d’adapter FOG aux besoins, par exemple pour couvrir plu
 2. Ouvrir **PXE Boot Menu**.
 3. Modifier **Menu Timeout (in seconds)** puis valider avec **Save PXE MENU**.
 
----
 
 > [!TIP]
 > Pour un test en salle complète (18 à 20 machines), 30 connexions assurent un flux stable.
