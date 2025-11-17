@@ -930,11 +930,6 @@ Puis clique sur **“Update”**.
 > [!TIP]  
 > Tu as maintenant un **groupe de déploiement opérationnel**, prêt à recevoir des clients et à lancer un déploiement massif.
 
---- 
-
-Parfait Kata, **on enchaîne proprement**.
-Voici la suite complète, formatée comme tes sections précédentes, 100% prête à coller dans ton README.
-
 ---
 
 <a id="preparation-master"></a>
