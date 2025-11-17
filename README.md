@@ -249,7 +249,7 @@ ID : btssio  | MDP : btssio
 
 > [!NOTE]
 > Cette section configure les **utilisateurs**, le **SSH** et la **sécurisation basique du serveur**.
-> Indispensable avant de passer à l’installation de FOG.
+> Indispensable avant de passer à l’installation de FOG !
 
 ---
 
@@ -268,7 +268,7 @@ ID : btssio  | MDP : btssio
 2️⃣︲**Activation du SSH.**
 
 * S’assurer que le paquet est installé :
-* En mode ROOT : 
+* En mode **ROOT** : 
 
   ```bash
    apt install openssh-server -y
@@ -276,8 +276,8 @@ ID : btssio  | MDP : btssio
 * Démarrer et activer le service :
 
   ```bash
-  sudo systemctl enable ssh --now
-  sudo systemctl status ssh
+  $ systemctl enable ssh --now
+  $ systemctl status ssh
   ```
 
 <details>
