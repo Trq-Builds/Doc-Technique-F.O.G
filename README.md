@@ -985,12 +985,12 @@ Tu dois installer **un des logiciels suivants** sur la machine master :
 
 ---
 
-3️⃣︲**Finaliser la machine avant recensement**
+3️⃣︲**Finaliser la machine avant recensement (Optionel)**
 
-- Nettoyer les fichiers inutiles.  
-- Vérifier que Windows est activé.  
-- Vérifier les mises à jour.  
-- Redémarrer une dernière fois avant de passer au boot PXE.
+- `🧹`︲Nettoyer les fichiers inutiles.  
+- `✅`︲Vérifier que Windows est activé.  
+- `🔁`︲Vérifier les mises à jour.  
+- `🔁`︲Redémarrer une dernière fois avant de passer au boot PXE.
 
 ---
 
