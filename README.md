@@ -870,9 +870,7 @@ Tu verras apparaître ton image dans :
 
 <details>
   <summary>📸︲Image enregistrée</summary>
-
-  *(Capture de la liste des images avec “S126-master” dans la liste)*
-
+<img width="1299" height="350" alt="image" src="https://github.com/user-attachments/assets/34fa040f-dc2e-4cbb-a666-9853ccfad912" />
 </details>
 
 ---
