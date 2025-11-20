@@ -654,8 +654,8 @@ subnet 192.168.100.0 netmask 255.255.255.0 {
 ```
 
 > [!WARNING]
-> Ne modifie pas le fichier si tu n’es pas sûr de ton plan d’adressage.
-> Une mauvaise configuration DHCP peut empêcher tout boot PXE.
+> **Ne modifie pas le fichier si tu n’es pas sûr de ton plan d’adressage.**
+> **Une mauvaise configuration DHCP peut empêcher tout boot PXE.**
 
 <details>
   <summary>📸︲Exemple de configuration DHCP</summary>
