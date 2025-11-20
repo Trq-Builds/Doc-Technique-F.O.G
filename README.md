@@ -369,7 +369,7 @@ $ apt update && $ apt install -y unzip git curl wget lsb-release net-tools
 
 2️⃣︲**Téléchargement du projet FOG.**
 
-On récupère la version 1.5.10.1721 du projet depuis GitHub :
+On récupère la version `1.5.10.1721` du projet depuis GitHub :
 
 ```bash
 cd /opt/
