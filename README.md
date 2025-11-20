@@ -439,7 +439,7 @@ Lors du processus, plusieurs questions seront posées :
 | Sécuriser MariaDB ?           | `N`                           |
 | Activer HTTPS ?               | `N`                           |
 | Change Host-Name ?            | `N`                           |
-| Telemètrie ?                  | `N`                           |
+| Télémetrie ?                  | `N`                           |
 
 ---
 Récapitulatif rapide des options : 
