@@ -1172,6 +1172,18 @@ Sources :
 - Utiliser Sysprep (généralisation) – Microsoft Learn [`🌐`](https://learn.microsoft.com/fr-fr/windows-hardware/manufacture/desktop/sysprep--generalize--a-windows-installation?view=windows-11)  
 ---
 
+Chemin et commande Sysprep (MASTER)
+
+```
+C:\Windows\System32\sysprep
+```
+
+```
+sysprep /generalize /oobe /shutdown
+```
+
+---
+
 2️⃣︲**Associer l’image à capturer dans FOG**
 
 Interface Web →  
