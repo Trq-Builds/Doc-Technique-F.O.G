@@ -1089,9 +1089,7 @@ Tu peux associer l’image `S126-master`, mais ce n’est pas obligatoire avant 
 
 <details>
   <summary>📸︲Paramètres du host master dans FOG</summary>
-
-  *(Capture de la page Host Management)*
-
+<img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/6fe59d1b-a890-44c7-9b2f-f873ff50ba30" />
 </details>
 
 ---
