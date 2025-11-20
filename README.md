@@ -1120,7 +1120,7 @@ Tu peux associer l’image `S126-master`, mais ce n’est pas obligatoire avant 
 
 Avant toute capture :
 
-- Le logiciel choisi (VSCode, WinRAR, LibreOffice, FileZilla) doit être installé ✔️  
+- Un logiciel choisi au choix (VSCode, WinRAR, LibreOffice, FileZilla) doit être installé 
 - Le système doit être propre (pas de fichiers perso, pas de téléchargements inutiles)  
 - Les mises à jour Windows doivent être terminées  
 - Le nom d’hôte doit être correct (`master-s126`)  
