@@ -1099,7 +1099,171 @@ Tu peux associer l’image `S126-master`, mais ce n’est pas obligatoire avant 
 > [!TIP]  
 > Ton master est maintenant **préparé, recensé et prêt à être capturé !**
 
+
 ---
+
+<a id="capture-image"></a>
+## `📦`︲Capture de l’image master
+
+---
+
+> [!NOTE]  
+> Cette étape consiste à **capturer l’image Windows 11 master** depuis la machine que tu viens de préparer et recenser.  
+> L’objectif : créer un fichier d’image utilisable pour les déploiements en masse.
+
+---
+
+<a id="preparation-capture"></a>
+### `🧭`︲Préparation avant capture
+
+---
+
+1️⃣︲**Vérifier les prérequis sur la machine master**
+
+Avant toute capture :
+
+- Le logiciel choisi (VSCode, WinRAR, LibreOffice, FileZilla) doit être installé ✔️  
+- Le système doit être propre (pas de fichiers perso, pas de téléchargements inutiles)  
+- Les mises à jour Windows doivent être terminées  
+- Le nom d’hôte doit être correct (`master-s126`)  
+- L’EFI doit être **désactivé** dans VirtualBox  
+- Le master doit être **éteint** avant capture
+
+> [!TIP]  
+> Laisse la machine dans un état **exactement prêt à être cloné**, comme en production.
+
+---
+
+2️⃣︲**Associer l’image à capturer dans FOG**
+
+Interface Web →  
+`Host Management → master-s126 → Image`
+
+Sélectionne :  
+```
+
+S126-master
+
+```
+
+Puis clique sur **Update**.
+
+<details>
+  <summary>📸︲Association de l’image au master</summary>
+
+  *(Capture du menu Host Management avec l’image assignée)*
+
+</details>
+
+---
+
+3️⃣︲**Passer le host en mode capture**
+
+Dans FOG, va dans :  
+`Host Management → master-s126 → Basic Tasks`
+
+Choisis :  
+```
+
+Capture
+
+```
+
+Puis clique sur :  
+➡️ **“Schedule Task”**
+
+<details>
+  <summary>📸︲Planification de la tâche de capture</summary>
+
+  *(Capture de la fenêtre de planification de tâche)*
+
+</details>
+
+---
+
+<a id="lancer-capture"></a>
+### `📸`︲Lancer la capture et suivi du processus
+
+---
+
+1️⃣︲**Démarrer la VM master en PXE**
+
+- Démarre la machine master  
+- Elle boote en PXE automatiquement  
+- Le menu FOG détecte la tâche en attente et lance la capture
+
+---
+
+2️⃣︲**Déroulement de la capture**
+
+Tu vas voir plusieurs étapes :
+
+- Chargement du noyau FOG  
+- Analyse de la ou des partitions  
+- Upload des blocs du disque (`Partclone`)  
+- Compression (selon ton image type)  
+- Envoi vers `/images/S126-master` sur le serveur
+
+<details>
+  <summary>📸︲Écran Partclone pendant la capture</summary>
+
+  *(Capture montrant Partclone en action)*
+
+</details>
+
+---
+
+3️⃣︲**Vérification de la fin de capture**
+
+La capture est terminée lorsque la VM affiche :
+```
+
+Image upload complete
+
+```
+… puis un redémarrage automatique.
+
+Sur ton serveur Debian, dans `/images/`, tu dois voir le dossier :
+```
+
+/images/S126-master/
+
+```
+
+avec plusieurs fichiers :  
+- `d1.mbr`  
+- `d1p1.img`  
+- `d1p2.img`  
+- `d1pX.img` *(selon les partitions)*
+
+<details>
+  <summary>📸︲Fichiers d’image sur le serveur</summary>
+
+  *(Capture du dossier `/images/S126-master`)*
+
+</details>
+
+---
+
+4️⃣︲**Vérification dans l'interface FOG**
+
+Interface Web →  
+`Image Management → All Images → S126-master`
+
+Vérifie :
+
+- Taille de l’image  
+- Date de dernière capture  
+- Nombre de partitions détectées  
+
+> [!TIP]  
+> Si la taille est trop petite (moins de ~2 Go), c’est que la capture n’a pas réussi.
+
+---
+
+> [!TIP]  
+> Ton image master Windows 11 est maintenant parfaitement capturée et prête à être déployée en masse.  
+  
 
 
 
