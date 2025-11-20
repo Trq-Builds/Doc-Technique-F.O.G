@@ -1037,11 +1037,6 @@ Quick Registration and Inventory
 - **Image association** : ne rien toucher pour le moment  
 - **Autres champs** : valider par défaut
 
-<details>
-  <summary>📸︲Recensement via le menu FOG</summary>
-
-</details>
-
 ---
 
 4️⃣︲**Redémarrer la machine**
