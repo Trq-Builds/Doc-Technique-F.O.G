@@ -424,20 +424,22 @@ cd /opt/fogproject/bin/
 $ ./installfog.sh
 ```
 
-> [!WARNING]
-> **NOTES POUR MOI MEME **INCOMPLET A MOFIFIER RAJOUTER LES COLONNES**
-
-
 Lors du processus, plusieurs questions seront posées :
 
 | Question                      | Réponse attendue              |
 | ----------------------------- | ----------------------------- |
 | Version Linux ?               | `2` (Debian Based Linux       |
 | Type d’installation ?         | `N` (Normal Server)           |
+| Changer l'interface réseau par défaut ? | `N`                 |
+| Setup Router Adress ?         | `Y`                           |
+| DHCP handle DNS               | `Y`                           | 
 | Interface réseau détectée ?   | `Entrée` (valider par défaut) |
-| Activer DHCP sur ce serveur ? | `Y`                           |
+| FOG DHCP Service ?| `Y`       | `Y`                           |
+| Installer les langues supplementaires | `N`                   |
 | Sécuriser MariaDB ?           | `N`                           |
 | Activer HTTPS ?               | `N`                           |
+| Change Host-Name ?            | `N`                           |
+| Telemètrie ?                  | `N`                           |
 
 ---
 Récapitulatif rapide des options : 
